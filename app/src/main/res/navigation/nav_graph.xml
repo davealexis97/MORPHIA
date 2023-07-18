@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/nav_dashboard">
+
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.morphia.app.dashboard.DashBoardFragment"
+        android:label="DashBoardFragment"
+        tools:layout="@layout/fragment_dash_board">
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_camera_main"
+            app:destination="@id/nav_camera_main" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_text_to_speech"
+            app:destination="@id/nav_text_to_speech" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_record_audio"
+            app:destination="@id/nav_record_audio" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_camera_main"
+        android:name="com.morphia.app.faceSwap.camera.CameraFragment"
+        android:label="CameraFragment"
+        tools:layout="@layout/fragment_camera">
+        <action
+            android:id="@+id/action_nav_camera_main_to_nav_faceswap"
+            app:destination="@id/nav_faceswap" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_faceswap"
+        android:name="com.morphia.app.faceSwap.result.FaceSwapResultFragment"
+        android:label="FaceSwapResultFragment"
+        tools:layout="@layout/fragment_face_swap_result" />
+
+    <fragment
+        android:id="@+id/nav_text_to_speech"
+        android:name="com.morphia.app.textToSpeech.TextToSpeechFragment"
+        android:label="TextToSpeechFragment"
+        tools:layout="@layout/fragment_text_to_speech">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_record_audio"
+        android:name="com.morphia.app.voiceClone.RecordAudioFragment"
+        android:label="RecordAudioFragment"
+        tools:layout="@layout/fragment_record_audio" >
+        <action
+            android:id="@+id/action_nav_record_audio_to_nav_effects"
+            app:destination="@id/nav_effects" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_effects"
+        android:name="com.morphia.app.voiceClone.EffectFragment"
+        android:label="EffectFragment"
+        tools:layout="@layout/fragment_effect" />
+
+</navigation>

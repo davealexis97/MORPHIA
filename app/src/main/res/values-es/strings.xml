@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Morphia</string>
+
+    <string name="camera_face_swap">Camera Face Swap</string>
+    <string name="face_not_found">Face Not Found</string>
+</resources>

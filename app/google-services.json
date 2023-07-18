@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "810003100759",
+    "project_id": "morphia-64f83",
+    "storage_bucket": "morphia-64f83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810003100759:android:6248361e77346096de5f12",
+        "android_client_info": {
+          "package_name": "com.morphia.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810003100759-pu243b0ahm2vckpng55a297hhnb5a23t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.morphia.app",
+            "certificate_hash": "33cc9fa0751cdef04a9aac3ccc78eb6083c266c6"
+          }
+        },
+        {
+          "client_id": "810003100759-dkdna7d50bd0vminrg89n2asiodk8jik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0AhTwjI4rcdUO5LeskULoI5rXEw67gLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810003100759-dkdna7d50bd0vminrg89n2asiodk8jik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
